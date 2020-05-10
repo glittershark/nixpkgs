@@ -16400,6 +16400,10 @@ in
     then utillinuxMinimal
     else null;
 
+  libuiohook = callPackage ../development/libraries/libuiohook {
+    inherit (darwin.apple_sdk.frameworks) ApplicationServices Carbon;
+  };
+
   light = callPackage ../os-specific/linux/light { };
 
   lightum = callPackage ../os-specific/linux/lightum { };
