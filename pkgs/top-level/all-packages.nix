@@ -21018,6 +21018,8 @@ in
 
   obs-ndi = callPackage ../applications/video/obs-studio/obs-ndi.nix { };
 
+  obs-input-overlay = callPackage ../applications/video/obs-studio/input-overlay.nix { };
+
   octoprint = callPackage ../applications/misc/octoprint { };
 
   octoprint-plugins = callPackage ../applications/misc/octoprint/plugins.nix { };
