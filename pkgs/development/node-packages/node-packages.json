@@ -50,6 +50,7 @@
 , "coc-wxml"
 , "coc-yaml"
 , "coc-yank"
+, "codefresh"
 , "coffee-script"
 , "coinmon"
 , "configurable-http-proxy"
